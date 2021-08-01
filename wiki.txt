@@ -1,0 +1,25 @@
+                            VERTEX
+https://en.wikipedia.org/wiki/Vertex_(computer_graphics)
+
+A | Position (2.1, 1.2, 0.2), Color (1, 0, 0)
+B | Position (5.3, 11.8, -4.6), Color (0, 1, 0)
+C | Position (14.8, 9.5, 2.1), Color (0, 0, 1)
+
+ABC -> vertex shader -> fragment shader (for every pixel in triange) ->
+-> pixel color
+
+GLSL (OpenGL Shading Language, Graphics Library Shader Language)
+https://en.wikipedia.org/wiki/OpenGL_Shading_Language
+
+OpenGL feature to uploading vertex data to the video device
+https://en.wikipedia.org/wiki/Vertex_buffer_object
+
+                            CMAKE
+Adds an executable target called <name> to be built from the source files listed in the command invocation
+https://cmake.org/cmake/help/latest/command/add_executable.html
+
+                            GLAD
+https://github.com/Dav1dde/glad
+
+                            GLFW
+https://www.glfw.org/docs/latest/

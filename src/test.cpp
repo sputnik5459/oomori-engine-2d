@@ -4,6 +4,22 @@
 #include <iostream>
 
 
+/*
+                            VERTEX
+
+A | Position (2.1, 1.2, 0.2), Color (1, 0, 0)
+B | Position (5.3, 11.8, -4.6), Color (0, 1, 0)
+C | Position (14.8, 9.5, 2.1), Color (0, 0, 1)
+
+ABC -> vertex shader -> fragment shader (for every pixel in triange) ->
+-> pixel color
+
+    GLSL (OpenGL Shading Language, Graphics Library Shader Language)
+
+https://ru.wikipedia.org/wiki/OpenGL_Shading_Language
+
+*/
+
 GLfloat point[] = {
    0.0f,  0.5f, 0.0f,
    0.5f, -0.5f, 0.0f,
