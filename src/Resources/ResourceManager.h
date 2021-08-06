@@ -23,12 +23,10 @@ class ResourceManager {
       const std::string& shaderName, const std::string& vertexPath,
       const std::string& fragmentPath
     );
-    std::shared_ptr<Renderer::ShaderProgram> getShaderProgram(
-      const std::string& shaderName
-    );
+    std::shared_ptr<Renderer::ShaderProgram> getShader(const std::string& shaderName);
 
   private:
-    std::string getFileString(const std::string& relativeFilePath) const;
+    std::string getFileString(const std::string& relativeFilePath);
 
     typedef std::map<const std::string, std::shared_ptr<Renderer::ShaderProgram>> ShaderProgramsMap;
     ShaderProgramsMap m_shaderPrograms;
