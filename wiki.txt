@@ -23,3 +23,5 @@ https://github.com/Dav1dde/glad
 
                             GLFW
 https://www.glfw.org/docs/latest/
+
+Need to copy to src/Resources/: https://github.com/nothings/stb/blob/master/stb_image.h
